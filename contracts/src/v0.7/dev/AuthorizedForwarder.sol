@@ -4,7 +4,6 @@ pragma solidity ^0.7.0;
 import "../interfaces/OperatorInterface.sol";
 import "../ConfirmedOwnerWithProposal.sol";
 import "../AuthorizedReceiver.sol";
-import "../ErrorParser.sol";
 import "../vendor/Address.sol";
 
 contract AuthorizedForwarder is ConfirmedOwnerWithProposal, AuthorizedReceiver {
@@ -80,7 +79,10 @@ contract AuthorizedForwarder is ConfirmedOwnerWithProposal, AuthorizedReceiver {
     require(to.isContract(), "Must forward to a contract");
     (bool success, bytes memory result) = to.call(data);
     if(!success){
-      ErrorParser.revertWithMessage(result);
-     }
+      if (result.length == 0) revert();
+      assembly {
+          revert(add(32, result), mload(result))
+      }
+    }
   }
 }
