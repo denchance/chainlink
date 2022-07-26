@@ -58,7 +58,7 @@ type Secrets struct {
 type Feature struct {
 	FeedsManager *bool
 	LogPoller    *bool
-	UICSA        *bool
+	UICSAKeys    *bool
 }
 
 type Database struct {

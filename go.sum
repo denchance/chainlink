@@ -1608,12 +1608,12 @@ github.com/sirupsen/logrus v1.8.1 h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE
 github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic61uBYv0=
 github.com/smartcontractkit/chainlink-relay v0.1.3-0.20220719171531-1b4f9e38edba h1:iLhltS3rGMHoVfuVJyIdet5aTcIQ/PYlit2o4IPN1is=
 github.com/smartcontractkit/chainlink-relay v0.1.3-0.20220719171531-1b4f9e38edba/go.mod h1:ODzTQ5y/i3/9EQzfv1MxKXG9N+BUGOSw/xTNkdY1kcw=
-github.com/smartcontractkit/chainlink-solana v0.2.20-0.20220719172311-5cf4d3a2e7c6 h1:VC1pwFGnnHGR13550fwcVJZrRduzM3665WG3PJ7pFh4=
-github.com/smartcontractkit/chainlink-solana v0.2.20-0.20220719172311-5cf4d3a2e7c6/go.mod h1:ioSfkYRG1qQ2RfUceCt7Rn3RO7ujdZPzlGBPv/KrOZw=
+github.com/smartcontractkit/chainlink-solana v0.2.20-0.20220726142833-8d47fbc80c06 h1:BCr85F2vQsN2dCDAhJmOgNs/j63GGwrgG+7DMSIb6Gg=
+github.com/smartcontractkit/chainlink-solana v0.2.20-0.20220726142833-8d47fbc80c06/go.mod h1:ioSfkYRG1qQ2RfUceCt7Rn3RO7ujdZPzlGBPv/KrOZw=
 github.com/smartcontractkit/chainlink-starknet/relayer v0.0.0-20220725131406-68dfccf83e02 h1:a1YzSZKuIAf1JpdMYYUZ9EiZBasE7YrfgXK2X5ItAxM=
 github.com/smartcontractkit/chainlink-starknet/relayer v0.0.0-20220725131406-68dfccf83e02/go.mod h1:IVduoSXT5Gqc5AX1IytLNjBswr6dR9+m6vZZkDDsRCU=
-github.com/smartcontractkit/chainlink-terra v0.1.4-0.20220719173444-38c59d9ad3b2 h1:Q9D5mUNgxUH6uRWWDjNLs9nrZOTo9JvWdsXn85fVf8I=
-github.com/smartcontractkit/chainlink-terra v0.1.4-0.20220719173444-38c59d9ad3b2/go.mod h1:yspvVUsG5t4OhELSIj9O5dQsz7UqzO8z9J8Ys7scHeU=
+github.com/smartcontractkit/chainlink-terra v0.1.4-0.20220726142934-12e423cf28ba h1:7jfRNHwLA/kK1jcKSqH+gWc0E3CwGTZ6AvYy+IgybRM=
+github.com/smartcontractkit/chainlink-terra v0.1.4-0.20220726142934-12e423cf28ba/go.mod h1:yspvVUsG5t4OhELSIj9O5dQsz7UqzO8z9J8Ys7scHeU=
 github.com/smartcontractkit/libocr v0.0.0-20220701150323-d815c8d0eab8 h1:raZou4k7yhqym37dqOV5xGV730G/xvBK0gDHjWHuTJw=
 github.com/smartcontractkit/libocr v0.0.0-20220701150323-d815c8d0eab8/go.mod h1:5JnCHuYgmIP9ZyXzgAfI5Iwu0WxBtBKp+ApeT5o1Cjw=
 github.com/smartcontractkit/ocr2vrf v0.0.0-20220721214331-2e782819eb1d h1:tVP+1isaTBXU5cxmrDmlqDIW7LPSIz+Po3nJahUPCXw=
